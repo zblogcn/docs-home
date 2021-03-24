@@ -1,0 +1,165 @@
+<html lang="zh-CN"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>
+    Z-Blog 官方文档
+  </title>
+  <!-- CSS Files -->
+  <link href="https://cdn.jsdelivr.net/gh/creativetimofficial/argon-design-system@1.0.1/assets/css/argon.min.css?v=1.2.2" rel="stylesheet">
+
+  <style>
+    .global-zblogcn-navbar{font-size:12px;width:100%;height:34px;line-height:34px;background:transparent;position:absolute;top:0;z-index:10000;transition:background-color .3s}
+    .global-zblogcn-navbar:hover{background-color:#2b2c2b}
+    .global-zblogcn-navbar ul{margin:0;padding:0}
+    .global-zblogcn-navbar ul:after{clear:both}
+    .global-zblogcn-navbar a{padding:0 20px;color:#fff;display:block}
+    .global-zblogcn-navbar a.on,.global-zblogcn-navbar a:focus,.global-zblogcn-navbar a:hover{color:#fff;background:linear-gradient(to bottom,#005f92, #472f9c);background:-moz-linear-gradient(to bottom,#005f92, #472f9c);background:-o-linear-gradient(to bottom,#005f92, #472f9c);background:-webkit-linear-gradient(to bottom,#005f92, #472f9c)}
+    /* .global-zblogcn-navbar a:active{background:#01507a} */
+    .global-zblogcn-navbar li{list-style:none;float:left}
+    .global-zblogcn-navbar .logo,.global-zblogcn-navbar .menu-button{display:none}
+    .global-zblogcn-navbar .container {width: 1280px; margin: 0 auto}
+    .useragent-images { font-weight: normal; }
+    .useragent-images img { width: 12px !important; height: 12px !important; margin-right: 2px;}
+    @media screen and (max-width: 768px) {
+    .global-zblogcn-navbar{background-color:#231175;height:60px;overflow:visible}
+    .global-zblogcn-navbar .container{width:auto;}
+    .global-zblogcn-navbar .logo{background-image:url(https://static.zblogcn.com/image/www/zblog_logo.svg);display:inline-block;height:54px;width:50%;background-repeat:no-repeat;background-size:contain;position:absolute;left:1em;top:4px}
+    .global-zblogcn-navbar .menu-button{position:absolute;width:60px;top:0;height:100%;display:-ms-flexbox;display:flex;-ms-flex-direction:column;flex-direction:column;-ms-flex-pack:center;justify-content:center;right:0}
+    .global-zblogcn-navbar .menu-button:active,.global-zblogcn-navbar .menu-button:focus,.global-zblogcn-navbar .menu-button:hover{background:#5a3faa}
+    .global-zblogcn-navbar .menu-button:active+ul,.global-zblogcn-navbar .menu-button:focus+ul,.global-zblogcn-navbar .menu-button:hover+ul{-ms-transform:scaleY(1);transform:scaleY(1);visibility:visible;opacity:1;max-height:100%}
+    .global-zblogcn-navbar .menu-button i{width:20px;display:block;height:3px;margin-bottom:3px;background:#fff}
+    .global-zblogcn-navbar ul{margin-top:0;-ms-transform:scaleY(0);transform:scaleY(0);visibility:hidden;overflow:hidden;background:#5a3faa;float:none;position:relative;z-index:4;opacity:0;max-height:0;top:60px;-ms-transform-origin:top;transform-origin:top;transition:max-height .5s,opacity .5s,visibility .5s,transform .5s}
+    .global-zblogcn-navbar ul li{float:none;padding:0;line-height:38px;height:38px}
+    .global-zblogcn-navbar ul:active,.global-zblogcn-navbar ul:focus,.global-zblogcn-navbar ul:hover{-ms-transform:scaleY(1);transform:scaleY(1);visibility:visible;opacity:1;max-height:100%}
+    .global-zblogcn-navbar a.on, .global-zblogcn-navbar a:focus, .global-zblogcn-navbar a:hover{background:#301b89;}
+    }
+    .contributors-list a img { height: 28px; border-radius: 100%; }
+  </style>
+<input type="hidden" id="_w_crate"><script type="text/javascript" src="chrome-extension://dbjbempljhcmhlfpfacalomonjpalpko/scripts/inspector.js"></script><style>div[value="91691691"] { display: none; }</style></head>
+
+<body class="index-page">
+  <!-- Navbar -->
+  <div class="mainmenu">
+    <div class="global-zblogcn-navbar">
+      <div class="container">
+        <div class="logo"></div>
+        <a class="menu-button do-nothing" href="javascript:;">
+          <i></i> <i></i> <i></i>
+        </a>
+        <ul>
+          <li><a href="https://www.zblogcn.com/">Z-Blog主页</a></li>
+          <li><a class="on" href="https://docs.zblogcn.com/">文档</a></li>
+          <li><a href="https://app.zblogcn.com/">应用中心</a></li>
+          <li><a href="https://blog.zblogcn.com/">菠萝阁</a></li>
+          <li><a href="https://bbs.zblogcn.com/">ZBlogger</a></li>
+          <li>
+            <a href="https://zbloghost.cn/" rel="noreferrer">Z-Blog主机</a>
+          </li>
+          <li>
+            <a href="https://z5encrypt.com/" rel="noreferrer">Z5加密</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- End Navbar -->
+  <div class="wrapper">
+    <div class="section section-hero section-shaped">
+      <div class="shape shape-style-1 shape-primary">
+        <span class="span-150"></span>
+        <span class="span-50"></span>
+        <span class="span-50"></span>
+        <span class="span-75"></span>
+        <span class="span-100"></span>
+        <span class="span-75"></span>
+        <span class="span-50"></span>
+        <span class="span-100"></span>
+        <span class="span-50"></span>
+        <span class="span-100"></span>
+      </div>
+      <div class="page-header">
+        <div class="container shape-container d-flex align-items-center py-lg">
+          <div class="col px-0">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-6 text-center">
+                <img src="https://static.zblogcn.com/image/www/zblog_logo.svg" style="width: 200px;" class="img-fluid">
+                <p class="lead text-white">Z-Blog / Z-BlogPHP 官方文档</p>
+                <div class="btn-wrapper mt-5">
+                  <a href="https://docs.zblogcn.com/php/" class="btn btn-lg btn-white btn-icon mb-3 mb-sm-0" style="text-transform: none;">
+                    <span class="btn-inner--text">Z-BlogPHP</span>
+                  </a>
+                  <a href="https://docs.zblogcn.com/asp/" class="btn btn-lg btn-github btn-icon mb-3 mb-sm-0" style="text-transform: none;">
+                    <span class="btn-inner--text">Z-BlogASP</span>
+                  </a>
+                </div>
+                <div class="mt-5">
+                  <small class="font-weight-bold mb-0 mr-2 text-white">贡献者</small>
+                  <span class="contributors-list"><a title="沉冰浮水" target="_blank" href="https://app.zblogcn.com/?auth=6401c4a7-89cd-48f9-a68b-d6464d8c3bc8"><img src="https://avatar.zblogcn.com/avatar/id/6401c4a7-89cd-48f9-a68b-d6464d8c3bc8"></a>
+<a title="zhouzishu" target="_blank" href="https://app.zblogcn.com/?auth=a400e25e-fcdc-4b68-959c-e608595f2bc0"><img src="https://avatar.zblogcn.com/avatar/id/a400e25e-fcdc-4b68-959c-e608595f2bc0"></a>
+<a title="未寒" target="_blank" href="https://app.zblogcn.com/?auth=3f27c237-91b5-48fa-99dd-d07f16b6a3f7"><img src="https://avatar.zblogcn.com/avatar/id/3f27c237-91b5-48fa-99dd-d07f16b6a3f7"></a>
+<a title="唐朝" target="_blank" href="https://app.zblogcn.com/?auth=57f578d3-9983-4771-9847-a9b45489cf77"><img src="https://avatar.zblogcn.com/avatar/id/57f578d3-9983-4771-9847-a9b45489cf77"></a>
+<a title="zx.asd" target="_blank" href="https://app.zblogcn.com/?auth=5729eaac-ae97-4745-b60f-471f9fcb9e8b"><img src="https://avatar.zblogcn.com/avatar/id/5729eaac-ae97-4745-b60f-471f9fcb9e8b"></a>
+</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="separator separator-bottom separator-skew zindex-100">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <!-- Typography -->
+  <footer class="footer has-cards">
+    <div class="container">
+      <div class="row align-items-center justify-content-md-between">
+        <div class="col-md-6">
+          <div class="copyright">
+            © 2020 <a href="https://www.zblogcn.com/" target="_blank">ZBLOGCN.COM</a>. <a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow">鄂ICP备11007414号-2</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <ul class="nav nav-footer justify-content-end">
+            <li class="nav-item">
+              <a href="https://wiki.zblogcn.com/" class="nav-link" target="_blank">旧版 Wiki</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+
+  <script src="https://hm.baidu.com/hm.js?715b62b4ac6937cf9eb32728b18067b2"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+  <script>
+    $.ajax({
+      url: "./contributors.json",
+      async: true,
+      success: function (result) {
+        if (result.length > 0) {
+          var contributors = '';
+          for (i = 0, length = result.length; i < length && i < 8; i++) {
+            contributors += ('<a title="'+result[i].name+'" target="_blank" href="https://app.zblogcn.com/?auth='+result[i].uuid+'"><img src="https://avatar.zblogcn.com/avatar/id/'+result[i].uuid+'"></a>'+"\n");
+          }
+          $('.contributors-list').html(contributors);
+        }
+      }
+    });
+  </script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?715b62b4ac6937cf9eb32728b18067b2";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
+<script type="text/javascript" src="chrome-extension://hjbfbllnfhppnhjdhhbmjabikmkfekgf/windowscript.js"></script></body></html>
