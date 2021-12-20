@@ -37,4 +37,4 @@ jobs:
 
       - name: Sync files
         # run: sudo ./upx sync $GITHUB_WORKSPACE /
-        run: sudo ./upx put $GITHUB_WORKSPACE/index.html /index.html
+        run: sudo ./upx put $GITHUB_WORKSPACE/* /*
