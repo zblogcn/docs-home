@@ -36,6 +36,7 @@ jobs:
         run: sudo ./upx rm /index.html
 
       - name: Sync files
-        # run: sudo ./upx sync $GITHUB_WORKSPACE /
         run: sudo ./upx put $GITHUB_WORKSPACE/index.html /index.html
+
+      - name: Sync statics files
         run: sudo ./upx sync $GITHUB_WORKSPACE/statics /statics
